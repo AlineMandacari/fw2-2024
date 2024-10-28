@@ -7,13 +7,18 @@ export default function Promessa(){
    const [pao, setpao] = useState("");
     setTimeout(() => {
         document.title = "Promessa é dívida"
-        setpao("é dívida");
-    }, 2000);
-    return<>
+        setpao(mudaPao("é dívida"));
+    }, 4000);
+    return <>
         <Menu />
         <Container>
-            Promessa{pao === ""? "<carregando>" : pao};
+            Promessa{pao==="" ? <img src= "./loading.gif" width={30} height={20} /> : pao}
         </Container>
         <Footer />
     </>
+}
+function mudaPao(texto){
+    setTimeout(() => {
+       return (texto) 
+    }, 10);
 }
