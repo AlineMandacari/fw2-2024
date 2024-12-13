@@ -1,35 +1,38 @@
 import { Container, Table } from "react-bootstrap";
-import Footer from "./modulos/footer";
 import Menu from "./modulos/navbar";
-export default function Pesportes({produtos}) {
+import Footer from "./modulos/footer";
+
+export default function Pesportes({ produtos }) {
     return <>
         <Menu />
-        <Container className="border border-sucess rounded-pill text-center col-sm-6">
-            Lista de produtos de esportes
-        </Container>
         <Container>
-            <Table striped bordered hover>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Produto</th>
-                        <th>Categoria</th>
-                        <th>Descrição</th>
-                        <th>Preço</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {produtos.map(abobrinha =>
-                    <tr>
-                        <td>{abobrinha.id}</td>
-                        <td>{abobrinha.titulo}</td>
-                        <td>{abobrinha.categoria}</td>
-                        <td>{abobrinha.descricao}</td>
-                        <td>{abobrinha.preco}</td>
-                    </tr>
-                    )}
-                </tbody>
-            </Table>
+            <Container className="border border-success rounded-pill text-center col-sm-6 m-2">
+                Lista de Produtos de Esportes
+            </Container>
+            <Container>
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Categoria</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {produtos.map(abobrinha =>
+                            <tr>
+                                <td>{abobrinha.id}</td>
+                                <td>{abobrinha.titulo}</td>
+                                <td>{abobrinha.categoria}</td>
+                                <td>{abobrinha.descricao}</td>
+                                <td>{abobrinha.preco}</td>
+                            </tr>
+                        )}
+                    </tbody>
+                </Table>
+            </Container>
         </Container>
         <Footer />
     </>

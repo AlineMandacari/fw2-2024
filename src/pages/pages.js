@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap"
 import Menu from "./modulos/navbar"
 import Footer from "./modulos/footer"
 
-export async function getServerSdieProps() {
+export async function getServerSideProps() {
     // Fetch data from external API
     const res = await fetch('https://dummyjson.com/products/1')
     const repo = await res.json()

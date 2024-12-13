@@ -1,212 +1,212 @@
 export const esportes = [
     {
-      "id": 1,
-      "titulo": "Tênis de Corrida Nike Air Zoom",
-      "categoria": "Calçados",
-      "descricao": "Tênis de corrida com tecnologia de amortecimento e suporte para treinos intensos.",
-      "preco": 599.99
+        "id": 1,
+        "titulo": "Bola de Futebol",
+        "categoria": "Futebol",
+        "descricao": "Bola de futebol oficial tamanho 5 para jogos profissionais.",
+        "preco": 89.90
     },
     {
-      "id": 2,
-      "titulo": "Bola de Futebol Adidas Predator",
-      "categoria": "Bolas",
-      "descricao": "Bola de futebol profissional com controle aprimorado para jogos de alta performance.",
-      "preco": 199.90
+        "id": 2,
+        "titulo": "Camisa de Futebol",
+        "categoria": "Futebol",
+        "descricao": "Camisa de futebol respirável, disponível em várias cores e tamanhos.",
+        "preco": 79.99
     },
     {
-      "id": 3,
-      "titulo": "Raquete de Tênis Wilson Pro Staff",
-      "categoria": "Equipamentos",
-      "descricao": "Raquete de tênis de alto desempenho, ideal para jogadores experientes.",
-      "preco": 849.90
+        "id": 3,
+        "titulo": "Chuteira Profissional",
+        "categoria": "Futebol",
+        "descricao": "Chuteira com cravos de alta performance para gramado natural.",
+        "preco": 249.90
     },
     {
-      "id": 4,
-      "titulo": "Camiseta de Compressão Under Armour",
-      "categoria": "Roupas",
-      "descricao": "Camiseta de compressão que melhora a circulação sanguínea durante atividades físicas.",
-      "preco": 169.90
+        "id": 4,
+        "titulo": "Bicicleta Mountain Bike",
+        "categoria": "Ciclismo",
+        "descricao": "Bicicleta de montanha com suspensão dupla e freio a disco.",
+        "preco": 1599.00
     },
     {
-      "id": 5,
-      "titulo": "Prancha de Surf Rip Curl",
-      "categoria": "Equipamentos",
-      "descricao": "Prancha de surf de alta performance, ideal para ondas grandes.",
-      "preco": 1599.99
+        "id": 5,
+        "titulo": "Capacete de Ciclismo",
+        "categoria": "Ciclismo",
+        "descricao": "Capacete leve e resistente para segurança no ciclismo.",
+        "preco": 199.90
     },
     {
-      "id": 6,
-      "titulo": "Luvas de Goleiro Puma Future Grip",
-      "categoria": "Acessórios",
-      "descricao": "Luvas de goleiro com alta aderência para jogos em campo e proteção superior.",
-      "preco": 299.90
+        "id": 6,
+        "titulo": "Luvas de Ciclismo",
+        "categoria": "Ciclismo",
+        "descricao": "Luvas confortáveis para melhor aderência e proteção das mãos.",
+        "preco": 49.90
     },
     {
-      "id": 7,
-      "titulo": "Saco de Boxe Everlast",
-      "categoria": "Equipamentos",
-      "descricao": "Saco de boxe para treinamento de força e resistência, ideal para academias.",
-      "preco": 799.90
+        "id": 7,
+        "titulo": "Raquete de Tênis",
+        "categoria": "Tênis",
+        "descricao": "Raquete leve de carbono para maior controle e potência.",
+        "preco": 399.00
     },
     {
-      "id": 8,
-      "titulo": "Bicicleta MTB Caloi Explorer",
-      "categoria": "Veículos",
-      "descricao": "Bicicleta mountain bike com suspensão dianteira para trilhas e terrenos irregulares.",
-      "preco": 1499.99
+        "id": 8,
+        "titulo": "Bola de Tênis",
+        "categoria": "Tênis",
+        "descricao": "Bola de tênis de alta durabilidade, pacote com 3 unidades.",
+        "preco": 29.90
     },
     {
-      "id": 9,
-      "titulo": "Shorts de Natação Speedo",
-      "categoria": "Roupas",
-      "descricao": "Shorts de natação com tecnologia anti-cloro e ajuste perfeito para maior conforto.",
-      "preco": 129.90
+        "id": 9,
+        "titulo": "Munhequeira de Tênis",
+        "categoria": "Tênis",
+        "descricao": "Munhequeira de algodão para absorver o suor.",
+        "preco": 15.90
     },
     {
-      "id": 10,
-      "titulo": "Capacete de Ciclista Giro Syntax",
-      "categoria": "Acessórios",
-      "descricao": "Capacete de ciclismo com ventilação otimizada e ajuste rápido para maior segurança.",
-      "preco": 349.90
+        "id": 10,
+        "titulo": "Halteres de 5kg",
+        "categoria": "Fitness",
+        "descricao": "Par de halteres revestidos de borracha para treinos de força.",
+        "preco": 119.90
     },
     {
-      "id": 11,
-      "titulo": "Raquete de Badminton Yonex Voltric",
-      "categoria": "Equipamentos",
-      "descricao": "Raquete de badminton com design aerodinâmico para maior velocidade e controle.",
-      "preco": 399.90
+        "id": 11,
+        "titulo": "Tapete de Yoga",
+        "categoria": "Yoga",
+        "descricao": "Tapete antiderrapante com 6mm de espessura para prática de yoga.",
+        "preco": 69.90
     },
     {
-      "id": 12,
-      "titulo": "Chuteira Nike Mercurial Vapor",
-      "categoria": "Calçados",
-      "descricao": "Chuteira de futebol com sola leve e tração otimizada para jogadores rápidos.",
-      "preco": 699.99
+        "id": 12,
+        "titulo": "Faixa de Resistência",
+        "categoria": "Fitness",
+        "descricao": "Faixa elástica para exercícios de resistência e reabilitação.",
+        "preco": 39.90
     },
     {
-      "id": 13,
-      "titulo": "Rasteira de Futebol Adidas Predator",
-      "categoria": "Calçados",
-      "descricao": "Rasteira de futebol com ajuste perfeito e excelente aderência para jogos no campo.",
-      "preco": 259.90
+        "id": 13,
+        "titulo": "Bola de Basquete",
+        "categoria": "Basquete",
+        "descricao": "Bola oficial de basquete para quadras internas e externas.",
+        "preco": 109.90
     },
     {
-      "id": 14,
-      "titulo": "Bolsa de Esportes Nike Brasilia",
-      "categoria": "Acessórios",
-      "descricao": "Bolsa espaçosa e resistente, ideal para transporte de equipamentos esportivos.",
-      "preco": 179.90
+        "id": 14,
+        "titulo": "Tênis de Basquete",
+        "categoria": "Basquete",
+        "descricao": "Tênis de alta performance com ótimo amortecimento.",
+        "preco": 349.90
     },
     {
-      "id": 15,
-      "titulo": "Kit de Golfe Callaway Strata",
-      "categoria": "Equipamentos",
-      "descricao": "Kit completo de golfe com 12 peças para iniciantes e intermediários.",
-      "preco": 1999.90
+        "id": 15,
+        "titulo": "Bermuda de Basquete",
+        "categoria": "Basquete",
+        "descricao": "Bermuda de basquete leve e respirável.",
+        "preco": 59.90
     },
     {
-      "id": 16,
-      "titulo": "Meias de Corrida Asics Gel",
-      "categoria": "Acessórios",
-      "descricao": "Meias de corrida com amortecimento adicional e tecnologia para maior conforto.",
-      "preco": 69.90
+        "id": 16,
+        "titulo": "Luvas de Boxe 12oz",
+        "categoria": "Boxe",
+        "descricao": "Luvas de boxe acolchoadas, ideais para treinos e lutas.",
+        "preco": 159.90
     },
     {
-      "id": 17,
-      "titulo": "Colete de Ciclismo Decathlon",
-      "categoria": "Roupas",
-      "descricao": "Colete leve e aerodinâmico, ideal para ciclistas que buscam desempenho e conforto.",
-      "preco": 149.90
+        "id": 17,
+        "titulo": "Saco de Pancada",
+        "categoria": "Boxe",
+        "descricao": "Saco de pancada de 1,5m, ideal para treino de força e resistência.",
+        "preco": 399.90
     },
     {
-      "id": 18,
-      "titulo": "Skate Longboard Penny",
-      "categoria": "Veículos",
-      "descricao": "Skate Longboard com design compacto e ótimo para manobras e deslizar na cidade.",
-      "preco": 329.90
+        "id": 18,
+        "titulo": "Protetor Bucal",
+        "categoria": "Boxe",
+        "descricao": "Protetor bucal ajustável para segurança durante lutas.",
+        "preco": 29.90
     },
     {
-      "id": 19,
-      "titulo": "Aluguel de Campo de Futebol",
-      "categoria": "Serviços",
-      "descricao": "Aluguel de campo de futebol para jogos recreativos e campeonatos amadores.",
-      "preco": 300.00
+        "id": 19,
+        "titulo": "Viseira de Corrida",
+        "categoria": "Corrida",
+        "descricao": "Viseira leve e ajustável, protege do sol durante a corrida.",
+        "preco": 39.90
     },
     {
-      "id": 20,
-      "titulo": "Bola de Basquete Spalding NBA",
-      "categoria": "Bolas",
-      "descricao": "Bola de basquete oficial da NBA, com alta durabilidade e excelente grip.",
-      "preco": 159.90
+        "id": 20,
+        "titulo": "Tênis de Corrida",
+        "categoria": "Corrida",
+        "descricao": "Tênis de corrida leve com ótimo amortecimento para treinos longos.",
+        "preco": 299.90
     },
     {
-      "id": 21,
-      "titulo": "Tênis de Basquete Jordan 1",
-      "categoria": "Calçados",
-      "descricao": "Tênis de basquete com design inspirado em Michael Jordan e ótimo para quadra.",
-      "preco": 799.99
+        "id": 21,
+        "titulo": "Camiseta de Corrida",
+        "categoria": "Corrida",
+        "descricao": "Camiseta respirável, ideal para maratonas e corridas intensas.",
+        "preco": 69.90
     },
     {
-      "id": 22,
-      "titulo": "Colete de Proteção para Patins",
-      "categoria": "Acessórios",
-      "descricao": "Colete de proteção para patins, com reforço nas áreas de maior impacto.",
-      "preco": 99.90
+        "id": 22,
+        "titulo": "Raquete de Padel",
+        "categoria": "Padel",
+        "descricao": "Raquete de padel com ótima absorção de impacto.",
+        "preco": 349.90
     },
     {
-      "id": 23,
-      "titulo": "Par de Luvas de Boxe Adidas",
-      "categoria": "Acessórios",
-      "descricao": "Luvas de boxe com acolchoamento denso para maior proteção durante os treinos.",
-      "preco": 199.90
+        "id": 23,
+        "titulo": "Bola de Vôlei",
+        "categoria": "Vôlei",
+        "descricao": "Bola de vôlei oficial, excelente para jogos de praia e quadra.",
+        "preco": 89.90
     },
     {
-      "id": 24,
-      "titulo": "Equipamento de Escalada Petzl",
-      "categoria": "Equipamentos",
-      "descricao": "Equipamento de escalada profissional com mosquetões e cordas de alta resistência.",
-      "preco": 799.90
+        "id": 24,
+        "titulo": "Rede de Vôlei",
+        "categoria": "Vôlei",
+        "descricao": "Rede de vôlei resistente para jogos ao ar livre e na quadra.",
+        "preco": 249.90
     },
     {
-      "id": 25,
-      "titulo": "Bicicleta Elétrica Caloi E-Bike",
-      "categoria": "Veículos",
-      "descricao": "Bicicleta elétrica com assistência ao pedal, ideal para passeios e deslocamentos urbanos.",
-      "preco": 4999.99
+        "id": 25,
+        "titulo": "Joelheira para Vôlei",
+        "categoria": "Vôlei",
+        "descricao": "Joelheira acolchoada para proteção nas partidas.",
+        "preco": 49.90
     },
     {
-      "id": 26,
-      "titulo": "Tênis de Corrida Asics Gel-Kayano",
-      "categoria": "Calçados",
-      "descricao": "Tênis de corrida com gel de amortecimento e estabilidade para corredores de longa distância.",
-      "preco": 799.90
+        "id": 26,
+        "titulo": "Roupa de Mergulho",
+        "categoria": "Mergulho",
+        "descricao": "Roupa de mergulho em neoprene para águas frias.",
+        "preco": 459.90
     },
     {
-      "id": 27,
-      "titulo": "Raquete de Squash Head Graphene",
-      "categoria": "Equipamentos",
-      "descricao": "Raquete de squash com tecnologia de grafeno, proporcionando mais potência e controle.",
-      "preco": 499.90
+        "id": 27,
+        "titulo": "Máscara de Mergulho",
+        "categoria": "Mergulho",
+        "descricao": "Máscara de mergulho com lente antirreflexo.",
+        "preco": 149.90
     },
     {
-      "id": 28,
-      "titulo": "Tenda de Camping Quechua",
-      "categoria": "Equipamentos",
-      "descricao": "Tenda compacta e resistente, ideal para acampamentos em qualquer estação do ano.",
-      "preco": 349.90
+        "id": 28,
+        "titulo": "Nadadeira de Mergulho",
+        "categoria": "Mergulho",
+        "descricao": "Nadadeira ergonômica para melhor propulsão na água.",
+        "preco": 199.90
     },
     {
-      "id": 29,
-      "titulo": "Bolsa de Yoga Liforme",
-      "categoria": "Acessórios",
-      "descricao": "Bolsa prática e espaçosa para transporte de tapetes e acessórios de yoga.",
-      "preco": 129.90
+        "id": 29,
+        "titulo": "Apito para Árbitro",
+        "categoria": "Acessórios",
+        "descricao": "Apito profissional de alta sonoridade.",
+        "preco": 19.90
     },
     {
-      "id": 30,
-      "titulo": "Raquete de Ping Pong Butterfly",
-      "categoria": "Equipamentos",
-      "descricao": "Raquete de ping pong de alta qualidade para jogadores que buscam precisão e controle.",
-      "preco": 159.90
+        "id": 30,
+        "titulo": "Garrafa de Água Térmica",
+        "categoria": "Acessórios",
+        "descricao": "Garrafa térmica para manter a bebida na temperatura ideal.",
+        "preco": 49.90
     }
-  ]  
+]
